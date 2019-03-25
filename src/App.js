@@ -1,29 +1,33 @@
-import React, { Component } from 'react';
+import React,
+{
+Component
+}
+
+from 'react';
+
 import {
-  // Button,
-  Container,
-  // Row,
-  // Col,
-  // Navbar,
-  // NavbarBrand,
-} from 'reactstrap';
+// Button,
+Container,
+// Row,
+// Col,
+// Navbar,
+// NavbarBrand,
+}
+
+from 'reactstrap';
+import About from './components/About/About';
 import Header from './components/Header/Header';
-import SectionsWrapper from './components/SectionsWrapper/SectionsWrapper';
+import Projects from './components/Projects/Projects';
+import GitHubSection from './components/GitHubSection/GitHubSection';
+
 
 
 class App extends Component {
 
-    render() {
-        return (
-          <Container fluid>
-        <Header />
-        <SectionsWrapper>
-
-
-        </SectionsWrapper>
-        </Container>
-      )
-    }
-}
-
-export default App;
+render() {
+return (< Container>
+  < Header />
+    < About />
+      < Projects />
+        < GitHubSection />
+          < /Container>) } } export default App;
